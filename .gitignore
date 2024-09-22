@@ -1,0 +1,18 @@
+# Ignorer le dossier de l'environnement virtuel
+ConcepMap/
+
+# Ignorer les fichiers temporaires de Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorer les fichiers de configuration de l'IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers de système d'exploitation
+.DS_Store
+Thumbs.db

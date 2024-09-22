@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+#add-button, #add-arrow-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#add-arrow-button {
+    left: 60px;
+}
+
+.bubble {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: move;
+}
+
+.bubble input {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    width: 80%;
+    font-size: 16px;
+}
+
+.bubble input:focus {
+    outline: none;
+}
+
+/* Style pour les flèches */
+.arrow {
+    position: absolute;
+    width: 2px;
+    height: 100px;
+    background-color: red;
+    transform-origin: 0 0; /* Point d'ancrage pour la rotation */
+    cursor: move;
+}
